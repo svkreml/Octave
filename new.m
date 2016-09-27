@@ -1,5 +1,5 @@
 hold on;
-
+clc;
 Arrow(0,2,5)
 Arrow(90,2.3)
 Arrow(270,1.9)
