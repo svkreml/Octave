@@ -1,0 +1,5 @@
+#метод крайних точек
+[A, B, C, D, S] = textread('iris.data.txt', ['%f %f %f %f %s'], 150);
+X=[A,B,C,D];
+[P,inf,Q,L]=GK(X,1,2);
+[x,y]=centroid(P)
